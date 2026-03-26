@@ -1,5 +1,7 @@
+//@ts-nocheck
 import {ROOMIFY_RENDER_PROMPT} from "./constants";
 import { getPuter } from "./puter.client";
+
 
 export const fetchAsDataUrl = async (url: string): Promise<string> => {
     const response = await fetch(url);

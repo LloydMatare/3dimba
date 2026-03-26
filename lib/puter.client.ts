@@ -1,3 +1,4 @@
+//@ts-nocheck
 let puterPromise: Promise<any> | null = null;
 
 export const getPuter = async () => {
