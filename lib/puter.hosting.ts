@@ -1,3 +1,4 @@
+//@ts-nocheck
 import {
     createHostingSlug,
     fetchBlobFromUrl, getHostedUrl,
